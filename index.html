@@ -557,7 +557,7 @@
   .wwd-card p{font-size:14.5px;color:var(--ink-soft);margin:0;}
 
   /* ---------- Approach staircase ---------- */
-  .stair-wrap{margin-top:20px;}
+  .stair-wrap{margin:24px auto 0;max-width:700px;}
   .stair-wrap svg{width:100%;height:auto;display:block;}
 
   /* ---------- Project photo cards ---------- */
@@ -687,7 +687,7 @@
       <div class="col-text">
         <p class="eyebrow">Our Role</p>
         <h2>We connect what needs to work together.</h2>
-        <p class="lede" style="margin-top:20px;color:var(--ink-soft);"> We bring the right people, resources and capabilities together around a shared opportunity.</p>
+        <p class="lede" style="margin-top:20px;color:var(--ink-soft);">We bring the right people, resources and capabilities together around a shared opportunity.</p>
       </div>
       <div class="col-media">
         <div class="hub-wrap">
@@ -730,7 +730,7 @@
     <div class="wrap reveal">
       <p class="eyebrow">What We Do</p>
       <h2>From local opportunity to functioning food systems.</h2>
-      <p class="lede" style="margin-top:14px;color:var(--ink-soft);max-width:64ch;">Six interconnected areas.</p>
+      <p class="lede" style="margin-top:14px;color:var(--ink-soft);max-width:64ch;">Six interconnected areas</p>
       <div class="wwd-grid">
         <div class="wwd-card"><div class="wnum">01</div><h3>Stakeholder Convening &amp; Governance</h3><p>Aligning farmers, government, businesses and financiers.</p></div>
         <div class="wwd-card"><div class="wnum">02</div><h3>Productive Clean Energy</h3><p>Clean power for cold storage, irrigation and processing.</p></div>
@@ -750,22 +750,62 @@
       <h2>Start from the bottom. Build upward.</h2>
       <p class="lede" style="margin-top:14px;color:var(--on-navy-soft);max-width:64ch;">We start with what exists on the ground, then build up &mdash; one step at a time.</p>
       <div class="stair-wrap">
-        <svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg">
-          <line x1="10" y1="340" x2="690" y2="340" stroke="#8FDCE6" stroke-width="1" opacity="0.3"/>
-          <rect x="15" y="165" width="70" height="175" rx="3" fill="#B8802B"/>
-          <rect x="105" y="155" width="70" height="185" rx="3" fill="#C1892F"/>
-          <rect x="195" y="130" width="70" height="210" rx="3" fill="#CB9439"/>
-          <rect x="285" y="95" width="70" height="245" rx="3" fill="#D4A044"/>
-          <rect x="375" y="80" width="70" height="260" rx="3" fill="#23AEC6"/>
-          <rect x="465" y="55" width="70" height="285" rx="3" fill="#3DBDD3"/>
-          <rect x="555" y="30" width="70" height="310" rx="3" fill="#6FD2DE"/>
-          <text x="50" y="333" font-family="IBM Plex Sans, sans-serif" font-size="14" font-weight="600" fill="#15153B" text-anchor="start" transform="rotate(-90 50 333)">01 Ground Reality</text>
-          <text x="140" y="333" font-family="IBM Plex Sans, sans-serif" font-size="14" font-weight="600" fill="#15153B" text-anchor="start" transform="rotate(-90 140 333)">02 Opportunity</text>
-          <text x="230" y="333" font-family="IBM Plex Sans, sans-serif" font-size="14" font-weight="600" fill="#15153B" text-anchor="start" transform="rotate(-90 230 333)">03 Stakeholders</text>
-          <text x="320" y="333" font-family="IBM Plex Sans, sans-serif" font-size="14" font-weight="600" fill="#15153B" text-anchor="start" transform="rotate(-90 320 333)">04 Infrastructure &amp; Tech</text>
-          <text x="410" y="333" font-family="IBM Plex Sans, sans-serif" font-size="14" font-weight="600" fill="#15153B" text-anchor="start" transform="rotate(-90 410 333)">05 Finance &amp; Markets</text>
-          <text x="500" y="333" font-family="IBM Plex Sans, sans-serif" font-size="14" font-weight="600" fill="#15153B" text-anchor="start" transform="rotate(-90 500 333)">06 Implementation</text>
-          <text x="590" y="333" font-family="IBM Plex Sans, sans-serif" font-size="14" font-weight="600" fill="#15153B" text-anchor="start" transform="rotate(-90 590 333)">07 Learning &amp; Scale</text>
+        <svg class="stair-svg" viewBox="0 0 640 470" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Seven steps from ground reality to learning and scale">
+          <line x1="14" y1="450" x2="626" y2="450" stroke="#8FDCE6" stroke-width="1" opacity="0.35"/>
+          <polygon points="30,220 102,220 118,208 46,208" fill="#D1AC75"/>
+          <rect x="30" y="220" width="72" height="230" fill="#B8802B"/>
+          <line x1="30" y1="220" x2="102" y2="220" stroke="#DCC095" stroke-width="1"/>
+          <text x="66.0" y="256" text-anchor="middle" font-family="Fraunces, serif" font-size="27" font-weight="600" fill="#15153B">01</text>
+          <text x="72.0" y="436" font-family="IBM Plex Sans, sans-serif" font-size="18" font-weight="600" fill="#15153B" text-anchor="start" transform="rotate(-90 72.0 436)">Ground Reality</text>
+          <polygon points="102,190 174,190 190,178 118,178" fill="#D7B278"/>
+          <rect x="102" y="190" width="72" height="260" fill="#C1892F"/>
+          <line x1="102" y1="190" x2="174" y2="190" stroke="#E0C497" stroke-width="1"/>
+          <text x="138.0" y="226" text-anchor="middle" font-family="Fraunces, serif" font-size="27" font-weight="600" fill="#15153B">02</text>
+          <text x="144.0" y="436" font-family="IBM Plex Sans, sans-serif" font-size="18" font-weight="600" fill="#15153B" text-anchor="start" transform="rotate(-90 144.0 436)">Opportunity</text>
+          <polygon points="174,160 246,160 262,148 190,148" fill="#DDB97E"/>
+          <rect x="174" y="160" width="72" height="290" fill="#CB9439"/>
+          <line x1="174" y1="160" x2="246" y2="160" stroke="#E5CA9C" stroke-width="1"/>
+          <text x="210.0" y="196" text-anchor="middle" font-family="Fraunces, serif" font-size="27" font-weight="600" fill="#15153B">03</text>
+          <text x="216.0" y="436" font-family="IBM Plex Sans, sans-serif" font-size="18" font-weight="600" fill="#15153B" text-anchor="start" transform="rotate(-90 216.0 436)">Stakeholders</text>
+          <polygon points="246,130 318,130 334,118 262,118" fill="#E3C185"/>
+          <rect x="246" y="130" width="72" height="320" fill="#D4A044"/>
+          <line x1="246" y1="130" x2="318" y2="130" stroke="#EAD0A2" stroke-width="1"/>
+          <text x="282.0" y="166" text-anchor="middle" font-family="Fraunces, serif" font-size="27" font-weight="600" fill="#15153B">04</text>
+          <text x="288.0" y="436" font-family="IBM Plex Sans, sans-serif" font-size="18" font-weight="600" fill="#15153B" text-anchor="start" transform="rotate(-90 288.0 436)">Infrastructure &amp; Tech</text>
+          <polygon points="318,100 390,100 406,88 334,88" fill="#70CADA"/>
+          <rect x="318" y="100" width="72" height="350" fill="#23AEC6"/>
+          <line x1="318" y1="100" x2="390" y2="100" stroke="#91D6E2" stroke-width="1"/>
+          <text x="354.0" y="136" text-anchor="middle" font-family="Fraunces, serif" font-size="27" font-weight="600" fill="#15153B">05</text>
+          <text x="360.0" y="436" font-family="IBM Plex Sans, sans-serif" font-size="18" font-weight="600" fill="#15153B" text-anchor="start" transform="rotate(-90 360.0 436)">Finance &amp; Markets</text>
+          <polygon points="390,70 462,70 478,58 406,58" fill="#81D4E2"/>
+          <rect x="390" y="70" width="72" height="380" fill="#3DBDD3"/>
+          <line x1="390" y1="70" x2="462" y2="70" stroke="#9EDEE9" stroke-width="1"/>
+          <text x="426.0" y="106" text-anchor="middle" font-family="Fraunces, serif" font-size="27" font-weight="600" fill="#15153B">06</text>
+          <text x="432.0" y="436" font-family="IBM Plex Sans, sans-serif" font-size="18" font-weight="600" fill="#15153B" text-anchor="start" transform="rotate(-90 432.0 436)">Implementation</text>
+          <polygon points="462,40 534,40 550,28 478,28" fill="#A1E2EA"/>
+          <rect x="462" y="40" width="72" height="410" fill="#6FD2DE"/>
+          <line x1="462" y1="40" x2="534" y2="40" stroke="#B7E8EE" stroke-width="1"/>
+          <polygon points="534,40 550,28 550,438 534,450" fill="#5090A5"/>
+          <text x="498.0" y="76" text-anchor="middle" font-family="Fraunces, serif" font-size="27" font-weight="600" fill="#15153B">07</text>
+          <text x="504.0" y="436" font-family="IBM Plex Sans, sans-serif" font-size="18" font-weight="600" fill="#15153B" text-anchor="start" transform="rotate(-90 504.0 436)">Learning &amp; Scale</text>
+          <g fill="#F3F1E9" opacity="0.9"><rect x="580" y="6" width="5" height="448" rx="2"/><rect x="612" y="6" width="5" height="448" rx="2"/>
+          <rect x="580" y="28" width="37" height="4" rx="2"/>
+          <rect x="580" y="54" width="37" height="4" rx="2"/>
+          <rect x="580" y="80" width="37" height="4" rx="2"/>
+          <rect x="580" y="106" width="37" height="4" rx="2"/>
+          <rect x="580" y="132" width="37" height="4" rx="2"/>
+          <rect x="580" y="158" width="37" height="4" rx="2"/>
+          <rect x="580" y="184" width="37" height="4" rx="2"/>
+          <rect x="580" y="210" width="37" height="4" rx="2"/>
+          <rect x="580" y="236" width="37" height="4" rx="2"/>
+          <rect x="580" y="262" width="37" height="4" rx="2"/>
+          <rect x="580" y="288" width="37" height="4" rx="2"/>
+          <rect x="580" y="314" width="37" height="4" rx="2"/>
+          <rect x="580" y="340" width="37" height="4" rx="2"/>
+          <rect x="580" y="366" width="37" height="4" rx="2"/>
+          <rect x="580" y="392" width="37" height="4" rx="2"/>
+          <rect x="580" y="418" width="37" height="4" rx="2"/>
+          </g>
         </svg>
       </div>
       <a href="projects.html" class="btn btn-ghost" style="margin-top:40px;">See it in action &rarr;</a>
@@ -786,9 +826,9 @@
             <span class="proj-status">In development</span>
           </div>
           <div class="proj-body">
-            <span class="proj-loc">Ibeju-Lekki, Lagos</span>
+            <span class="proj-loc">Magbon Alade, Lagos</span>
             <h3>ALFSI</h3>
-            <p>An integrated food-system initiative combining aquaponics, food processing, cold-chain infrastructure, skills development and market access to develop sustainable livelihood and food-security opportunities.</p>
+            <p>Climate-resilient fish and vegetable production, cold-chain services and sustainable livelihoods.</p>
             <a href="projects.html#alfsi" class="card-more">View Project &rarr;</a>
           </div>
         </div>
@@ -801,7 +841,7 @@
           <div class="proj-body">
             <span class="proj-loc">Dagbaja Oriade, Osun</span>
             <h3>Cocoa Aggregation</h3>
-            <p>Working with an established cocoa farmers&rsquo; cooperative to build a stronger aggregation and market system, backed by solar-powered post-harvest infrastructure and better connectivity.</p>
+            <p>Cocoa aggregation, clean-energy drying and rural connectivity.</p>
             <a href="projects.html#dagbaja-oriade" class="card-more">View Project &rarr;</a>
           </div>
         </div>
@@ -813,8 +853,8 @@
           </div>
           <div class="proj-body">
             <span class="proj-loc">Opialu, Benue</span>
-            <h3>Cassava Last-Mile Systems</h3>
-            <p>A clean-energy cassava processing machine and last-mile infrastructure connecting local production to processing and markets.</p>
+            <h3>Clean Energy Cassava &amp; Last-Mile</h3>
+            <p>Clean energy, digital connectivity and cassava value-chain development.</p>
             <a href="projects.html#opialu" class="card-more">View Project &rarr;</a>
           </div>
         </div>
